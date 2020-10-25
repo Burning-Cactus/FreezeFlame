@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "freezeflame:magmice"
+    },
+    "title": {
+      "translate": "advancements.freezeflame.enterportal.title"
+    },
+    "description": {
+      "translate": "advancements.freezeflame.enterportal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_freezeflame": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "freezeflame:freezeflame"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_freezeflame"
+    ]
+  ]
+}

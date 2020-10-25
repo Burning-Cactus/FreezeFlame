@@ -1,0 +1,41 @@
+{
+  "scale": 1.0,
+  "effects": {
+    "sky_color": 16724735,
+    "fog_color": 10263807,
+    "water_color": 255,
+    "water_fog_color": 255
+  },
+  "surface_builder": {
+    "config": {
+      "top_material": {
+        "Name": "minecraft:stone"
+      },
+      "under_material": {
+        "Name": "minecraft:stone"
+      },
+      "underwater_material": {
+        "Name": "minecraft:gravel"
+      }
+    },
+    "type": "minecraft:nope"
+  },
+  "carvers": {},
+  "features": [],
+  "starts": [],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "snow",
+  "temperature": 0.2,
+  "downfall": 0.5,
+  "category": "none",
+  "depth": 5.0
+}

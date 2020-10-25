@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "freezeflame:fire_log"
+    }
+  ],
+  "result": {
+    "item": "freezeflame:fire_planks",
+    "count": 4
+  }
+}

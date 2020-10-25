@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "freezeflame:block/freezeflame_portal_ns"
+    },
+    "axis=z": {
+      "model": "freezeflame:block/freezeflame_portal_ew"
+    }
+  }
+}

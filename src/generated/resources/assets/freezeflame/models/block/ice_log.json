@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "freezeflame:block/ice_log",
+    "end": "freezeflame:block/ice_log_top"
+  }
+}

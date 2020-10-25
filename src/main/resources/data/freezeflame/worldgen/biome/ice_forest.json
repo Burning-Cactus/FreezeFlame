@@ -1,0 +1,35 @@
+{
+  "precipitation": "snow",
+  "category": "none",
+  "depth": 5,
+  "scale": 1,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 10263807,
+    "sky_color": 16724735,
+    "water_color": 255,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none"
+  },
+  "surface_builder": "minecraft:stone",
+  "carvers": {
+    "air": [
+      "cave"
+    ],
+    "liquid": [
+      "underwater_cave"
+      ]
+  },
+  "features": [],
+  "starts": [],
+  "spawners": {
+
+  },
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 1,
+  "spawn_costs": {
+
+  }
+}

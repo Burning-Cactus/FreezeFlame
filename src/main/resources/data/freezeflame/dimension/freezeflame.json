@@ -1,0 +1,62 @@
+{
+  "type": "freezeflame:freezeflame",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": {
+      "bedrock_roof_position": -1,
+      "bedrock_floor_position": 0,
+      "sea_level": 50,
+      "disable_mob_generation": true,
+      "default_block": {
+        "Name": "freezeflame:ice_cobblestone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "structures": {
+        "stronghold": {
+          "distance": 0,
+          "count": 0,
+          "spread": 0
+        },
+        "structures": {
+        }
+      },
+      "noise": {
+        "top_slide": {
+          "target": 120,
+          "size": 10,
+          "offset": 0
+        },
+        "bottom_slide": {
+          "target": 200,
+          "size": 16,
+          "offset": 0
+        },
+        "sampling": {
+          "xz_scale": 1,
+          "xz_factor": 60,
+          "y_scale": 4,
+          "y_factor": 40
+        },
+        "size_vertical": 1,
+        "size_horizontal": 1,
+        "height": 50,
+        "density_factor": 0,
+        "density_offset": 0,
+        "random_density_offset": false,
+        "simplex_surface_noise": false,
+        "island_noise_override": false,
+        "amplified": false
+      }
+    },
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": ["freezeflame:ice_forest", "freezeflame:fire_forest"]
+    }
+  }
+}
